@@ -17,12 +17,6 @@ h2 {
  font-family: verdana;
 }
 
-h3 {
-    color: rgb(0, 0, 0);
- text-align: center;
- font-family: verdana;
-}
-
 p {
   color: rgb(0, 0, 0);
   font-family: verdana;
@@ -35,13 +29,6 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.center1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
 }
 
 div {
@@ -65,4 +52,13 @@ memcpy(&notify.message, "Test", 8);
     </h1>
 <div id="enviroment"></div>
 <p>PS4 Test</p>
+<h2>Sockets</h2>
+<div>
+    Message:
+    <input type="text" size="50" value="Hello from your PlayStation 4 :)" id="socketMessage"><br>
+    <br>
+    
+    <button onclick="socketSend()">Send Message</button>
+</div>
+
 </html>
